@@ -159,10 +159,11 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    loadStatus();
+    const initialLoad = window.setTimeout(() => loadStatus(), 0);
     const refresh = window.setInterval(() => loadStatus(), REFRESH_INTERVAL);
     const countdown = window.setInterval(() => setSecondsLeft((value) => (value <= 1 ? 60 : value - 1)), 1000);
     return () => {
+      window.clearTimeout(initialLoad);
       window.clearInterval(refresh);
       window.clearInterval(countdown);
     };
