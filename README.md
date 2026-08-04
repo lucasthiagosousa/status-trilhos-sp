@@ -11,6 +11,9 @@ Painel web responsivo para acompanhar o status operacional das linhas de metrô 
 - contadores operacionais;
 - cartões com cores semânticas e limites visuais claros;
 - cache local da última resposta válida;
+- cache compartilhado da API por 60 segundos;
+- limitação básica de consultas por endereço IP;
+- cabeçalhos de segurança no deploy;
 - aviso de dados desatualizados e indisponibilidade da fonte;
 - visualização do JSON bruto;
 - experiência otimizada para celular e computador.
@@ -46,4 +49,6 @@ O projeto inclui `vercel.json` e um comando de build específico para Vercel.
 
 ## Licença
 
-Uso livre para fins educacionais e demonstração, respeitando os termos da fonte de dados utilizada.
+Copyright (c) 2026 lucasthiagosousa. Todos os direitos reservados.
+
+O código pode ser consultado para fins educacionais e de referência. Cópia, modificação, distribuição ou uso comercial exigem autorização prévia do autor. Consulte o arquivo `LICENSE`.
