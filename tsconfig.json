@@ -37,6 +37,7 @@
     "worker",
     "build",
     "dist",
-    "scripts"
+    "scripts",
+    "vite.config.ts"
   ]
 }
