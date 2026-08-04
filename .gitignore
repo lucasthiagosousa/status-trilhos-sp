@@ -40,3 +40,6 @@ next-env.d.ts
 /.sites-runtime/
 /outputs/
 /work/
+
+# Sites local project identity (not needed in the public GitHub repository)
+/.openai/hosting.json
