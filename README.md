@@ -31,14 +31,6 @@ npm install
 npm run dev
 ```
 
-## Publicação no Vercel
-
-O projeto inclui `vercel.json` e um comando de build específico para Vercel.
-
-1. Importe o repositório no Vercel.
-2. Mantenha o framework como Next.js.
-3. Publique sem variáveis de ambiente adicionais.
-
 ## Tecnologias
 
 - Next.js
